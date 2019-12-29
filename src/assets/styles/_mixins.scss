@@ -1,0 +1,10 @@
+@import "./colors";
+
+@mixin bg-blue-gradient {
+  color: $white;
+  background: $blue2;
+  background-image: linear-gradient(to right, $blue2, $blue);
+}
+@mixin shadow-blue{
+  box-shadow: 0 0 0px 2px #2c7ef84a; 
+}
