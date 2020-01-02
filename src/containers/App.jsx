@@ -1,15 +1,16 @@
-import React from 'react';
-import Header from '../components/Header';
-import Post from '../components/Post';
+import React, { useState, useEffect } from 'react';
+import SocialFeed from '../components/SocialFeed';
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../assets/styles/App.scss';
 
-const App = () => (
-  <div className='App'>
-    <Header />
-    <Post />
-  </div>
-);
+const App = () => {
+  // const initialState = useInitialState(API);
+  return (
+    <div className='App'>
+      <SocialFeed />
+    </div>
+  );
+}
 
 export default App;
